@@ -1,0 +1,19 @@
+.show-table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.show-table th, .show-table td {
+  border: 1px solid #d3d3d3;
+  padding: 1em;
+}
+
+.show-table th {
+  background-color: #f7f9fc;
+  font-weight: bold;
+  text-align: center;
+  width: 40%;
+  min-width: 4em;
+}

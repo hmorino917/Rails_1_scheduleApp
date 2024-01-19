@@ -1,0 +1,43 @@
+input[type=text],input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.date-form {
+  display: inline-block;
+  width: 49%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.check-form {
+  margin-bottom: 10px;
+}
+.button-form {
+  display: flex;
+  justify-content: flex-end;
+}
+.required {
+  color: red;
+}
+
+.cancel-btn, input[type=submit] {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
